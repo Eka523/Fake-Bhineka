@@ -1,0 +1,400 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*style*/
+.utama
+{
+    width: 100%;
+    font-family: Arial;
+    
+}
+.container1
+{
+    background-color: rgba(12, 13, 68, 0.911);
+}
+.top
+{
+    margin-bottom: 25px;
+    display: flex;
+}
+.top img {
+    margin-right: 100px;
+    margin-left: 80px;
+}
+.search {
+    width: 600px;
+    height: 30px;
+
+}
+.cari {
+    width: 100px;
+    height: 35px;
+    margin-right: 100px;
+}
+.login {
+    width: 100px;
+    height: 35px;
+}
+.navbar
+{
+    margin-left: 80px;
+    font-size: 14px;
+    margin-top: 2px;
+    
+    overflow: auto; 
+    
+}
+.navbar ul li a
+{
+    display: inline-flex;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.slideB img
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo
+{
+    float: left;
+    /* height: 125px; */
+    /* width: 125px; */
+    margin-left: 70px;
+    margin-right: 30px;
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
+.logo img
+{
+    height: 54px;
+    width: 54px;
+    text-align: center;
+}
+.logo p 
+{
+    text-align: center;
+    margin-top: 10px;
+    ;
+}
+.menuk
+{
+    width: 90%;
+    /* height: 150px; */
+    box-sizing: border-box;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    display: flex;
+}
+.terlaris
+{
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+.terlaris-head
+{
+    font-size: 25px;
+}
+.terlaris-menu
+{
+    float: left;
+    overflow: auto;
+}
+.terlaris-list .nama-barang-terlaris
+{
+    text-align: center;
+}
+
+.button-terlaris
+{
+    height: 20px;
+    width: 96px;
+    margin-left: 20px;
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+}
+.harga-barang-terlaris
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.terlaris-list img 
+{
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    
+}
+.terlaris-list
+{
+    padding-left: 20px;
+    float: left;
+    overflow: auto;
+
+}
+
+.terlaris-list a:link
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.peripheral
+{
+    width: 1100px;
+
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.peripheral h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.peripheral-large img
+{
+    width: 248px;
+    height: 248px;
+    float: left;
+    overflow: auto;
+}
+.peripheral-menu
+{
+    float: left;
+    margin-left: 20px;
+    height: 230px;
+    width: 155px;
+    overflow: auto;
+    text-align: center;
+}
+.peripheral-menu a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.peripheral-menu img 
+{
+    height: 130px;
+    height: 130px;
+}
+.nama-barang-peripheral
+{
+    font-size: 16px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+.harga-peripheral
+{
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+.button-peripheral
+{
+    width: 100px;
+    margin: auto;
+}
+.disclaimer
+{
+    width: 1100px;
+    margin: auto;
+
+    margin-bottom: 40px;
+}
+
+.disclaimer h3
+{
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.footer
+{
+    width: auto;
+    margin: auto;
+    background-color: lightgrey;
+}
+.row
+{
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.row h6
+{
+    color: grey;
+}
+.bhinneka-row 
+{
+    /* height: 180px; */
+    /* width: 150px; */
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 100px;
+    float: left;
+}
+.row-header
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.row-list ul li 
+{
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.row-list ul a:visited
+{
+    text-decoration: none;
+    color: grey;
+
+}
+
+.row-list ul a:link
+{
+    text-decoration: none;
+    color: grey;
+}
+.bhinneka-layanan
+{
+     /* height: 180px; */
+     /* width: 150px; */
+     text-align: justify;
+     box-sizing: border-box;
+     padding: 10px;
+     margin-right: 100px;
+     float: left;
+}
+.kontak-standart
+{
+    /* height: 180px; */
+    /* width: 150px; */
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    /* margin-right: 100px; */
+    float: left;
+}
+.kontak-header h6
+{
+    font-weight: bold;
+}
+.isi-kontak span{
+    margin-top: 10px;
+    color: grey;
+}
+.keamanan
+{
+    padding-top: 30px;
+}
+.isi-keamanan img
+{
+    width: auto;
+    height: 64px;
+}
+.aplikasi
+{
+   /* height: 180px; */
+    /* width: 150px; */
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 100px;
+    float: left;
+    overflow: auto;
+}
+.aplikasi-playstore img
+{
+    width: 135px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.aplikasi-appstore
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.social-media i
+{
+    height: 24px;
+    width: 24px;
+}
+.trademark 
+{
+    width: auto;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+.trademark small
+{
+    display: block;
+    font-size: 12px;
+    padding: 20px;
+    color: grey;
+}
